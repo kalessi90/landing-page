@@ -1,0 +1,46 @@
+/* *{   border: 2px solid red; } */
+
+/*  header  */
+.header-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+.header-link{
+    padding: 5px;
+}
+
+
+
+
+/*
+Elementos
+
+hero y footer
+#1F2937
+
+Hero main text (This website is awesome)
+48px extra-bold #f9faf8
+
+Hero secondary text, header link text
+18px #e5e7eb
+
+header logo text
+24px #f9faf8
+
+------
+
+button color, call to action background color
+#3882f6
+
+information header text
+36px extra-bold #1f2937
+
+--------
+quote section background color
+#e5e7eb
+
+quote text
+36px light italic #1f2937
+*/
