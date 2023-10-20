@@ -1,15 +1,71 @@
 /* *{   border: 2px solid red; } */
+/* debug */
+.debug{
+    border:2px solid red;
+}
+
+
+/*//////////////////////////////*/
+/*style header, hero and footer*/
+/*//////////////////////////////*/
+.hero-background, .footer-background{
+   background-color: #1f2937;
+}
 
 /*  header  */
-.header-container{
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-}
 
 .header-link{
-    padding: 5px;
+    display: flex;
+    display: inline;
 }
+
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/*hero*/ 
+.hero{
+    display:flex;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*Button*/
+.button-color, .call-to-action{
+    background-color: #3882f6;
+}
+
+.info-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/*//////////////////////////////*/
+/*////////quote section/////////*/
+/*//////////////////////////////*/
+.quote-section{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+
 
 
 
@@ -20,14 +76,16 @@ Elementos
 hero y footer
 #1F2937
 
+header logo text
+24px #f9faf8
+
 Hero main text (This website is awesome)
 48px extra-bold #f9faf8
 
 Hero secondary text, header link text
 18px #e5e7eb
 
-header logo text
-24px #f9faf8
+
 
 ------
 
