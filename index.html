@@ -9,43 +9,43 @@
 
 
 <body>
-    <div class="hero-background">
-        <div class="">
-            <div class="debug">
-                <h1>Header Logo</h1>
-            </div>
+    <div class="dark-background ">
+        <div class="flex header-container center"> <!-- Header -->
+            <div class="flex">
+                <h1 class="header-logo-text">Header Logo</h1>
+            </div> 
 
-            <div class="hero-secondary-text">
-                <p class="header-link" >header link one</p>
-                <p class="header-link">header link two</p>
-                <p class="header-link">header link three</p>
+            <div class="flex">
+                <p class="hero-secondary-text header-link-container">header link one</p>
+                <p class="hero-secondary-text header-link-container">header link two</p>
+                <p class="hero-secondary-text header-link-container ">header link three</p>
             </div>
-        </div> <!-- fin del contenedor header -->
+        </div> <!-- END Header-->
 
-        <div class="hero">
-            <div>
+        <div class="hero center flex"> <!-- Rest of HERO -->
+            <div >
                 <h1 class="hero-main-text">This website is awesome</h1>
                 <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+                <button class="button-color hero-secondary-text">Sign up</button>
             </div>
 
             <div>
-                <img src="" alt="">
-                <p>sample text</p>
+                <img src="images/image.webp" alt="">
+                
             </div>
-        </div> <!-- fin contenedor hero -->
+        </div> <!-- END Hero -->
     </div> <!-- END hero-background -->
 
-    <div class="container-white">
+    <div class="center">
         <div>
-            <h1>Some random information.</h1>
+            <h1 class="information-header-text">Some random information.</h1>
         </div>
 
-        <div class="">
-            <div class="">Hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
+        <div class="flex">
+            <div class="rounded-corner">Hola</div>
+            <div class="rounded-corner">hola</div>
+            <div class="rounded-corner">hola</div>
+            <div class="rounded-corner">hola</div>
         </div>
     </div> <!-- Fin contenedor "some random information" -->
 
@@ -58,20 +58,21 @@
         </div>
     </div> <!-- Fin quote section -->
 
-    <div class="">
-        <div class="">
-            <h2>Call to Action! it's time!</h2>
-            sign up for our product by clicking that button right over there!
-            <div>
-                <button>sign up</button>
-            </div>
+    <div class="call-to-action">
+        <div>
+            <h2 class="cta-text">Call to Action! it's time!</h2>
+            <p class="cta-text">sign up for our product by clicking that button right over there!</p>
         </div>
+        <div>
+            <button class="button-color hero-secondary-text">sign up</button>
+        </div>
+        
     </div> <!-- END Call to Action -->
 
 </body> <!-- END Body -->
 
 <footer>
-    <div class="footer-background">
+    <div class="dark-background">
         Copyright The Odin Project 2021
     </div>
 
